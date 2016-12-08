@@ -63,10 +63,10 @@
              <!-- Collect the nav links, forms, and other content for toggling -->
              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul class="nav navbar-nav">
-                 <li class="active"><a href="#">Music<span class="sr-only">(current)</span></a></li>
-                 <li><a href="#">Video</a></li>
-                 <li><a href="#">Tour</a></li>
-                 <li><a href="#">Merch</a></li>
+                 <li class="active"><a href="#Music">Music<span class="sr-only">(current)</span></a></li>
+                 <li><a href="#Video">Video</a></li>
+                 <li><a href="#Tour">Tour</a></li>
+                 <li><a href="#Merch">Merch</a></li>
                </ul>
                <ul class="nav navbar-nav navbar-right">
                  <li class="dropdown">
@@ -86,15 +86,15 @@
          </nav>
        </div>
      </div>
-     <div class="row">
+     <div class="row" id="Music">
        <div class="col-md-12 top-negbuffer">
-         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+         <div id="carousel-music" class="carousel slide" data-ride="carousel">
            <!-- Indicators -->
            <ol class="carousel-indicators">
-             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-             <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+             <li data-target="#carousel-music" data-slide-to="0" class="active"></li>
+             <li data-target="#carousel-music" data-slide-to="1"></li>
+             <li data-target="#carousel-music" data-slide-to="2"></li>
+             <li data-target="#carousel-music" data-slide-to="3"></li>
            </ol>
            <!-- Wrapper for slides -->
            <div class="carousel-inner" role="listbox">
@@ -120,11 +120,11 @@
              </div>
            </div>
            <!-- Controls -->
-           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+           <a class="left carousel-control" href="#carousel-music" role="button" data-slide="prev">
              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
              <span class="sr-only">Previous</span>
            </a>
-           <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+           <a class="right carousel-control" href="#carousel-music" role="button" data-slide="next">
              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
              <span class="sr-only">Next</span>
            </a>
@@ -151,6 +151,55 @@
      <div class="row top-buffer">
        <div class="col-md-12">
          <iframe src="https://embed.spotify.com/?uri=spotify:artist:6GCVojukJysOjNBgqmxe5j&theme=white" class="center-block" width="75%" max-width="640" height="380" max-height="720" frameborder="0" allowtransparency="true"></iframe>
+       </div>
+     </div>
+     <div class="row top-buffer" id="Video">
+       <div class="col-md-12">
+         <div id="carousel-video" class="carousel slide" data-ride="carousel">
+           <!-- Indicators -->
+           <ol class="carousel-indicators">
+             <li data-target="#carousel-video" data-slide-to="0" class="active"></li>
+             <li data-target="#carousel-video" data-slide-to="1"></li>
+             <li data-target="#carousel-video" data-slide-to="2"></li>
+             <li data-target="#carousel-video" data-slide-to="3"></li>
+             <li data-target="#carousel-video" data-slide-to="4"></li>
+             <li data-target="#carousel-video" data-slide-to="5"></li>
+             <li data-target="#carousel-video" data-slide-to="6"></li>
+           </ol>
+           <!-- Wrapper for slides -->
+           <div class="carousel-inner" role="listbox">
+             <div class="item active center-block">
+               <iframe width="1280" height="720" src="https://www.youtube.com/embed/jmQlFOU4sTw" frameborder="0" allowfullscreen class="center-block"></iframe>
+             </div>
+             <div class="item center-block">
+               <iframe width="1280" height="720" src="https://www.youtube.com/embed/hCwo7KlxVxQ" frameborder="0" allowfullscreen class="center-block"></iframe>
+             </div>
+             <div class="item center-block">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/Vmz3yyj8Vzo" frameborder="0" allowfullscreen class="center-block"></iframe>
+             </div>
+             <div class="item center-block">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/DohSDhFGcDw" frameborder="0" allowfullscreen class="center-block"></iframe>
+             </div>
+             <div class="item center-block">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/NU36Rz3Ui1U" frameborder="0" allowfullscreen class="center-block"></iframe>
+             </div>
+             <div class="item center-block">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/WbgqSG7eHD8" frameborder="0" allowfullscreen class="center-block"></iframe>
+             </div>
+             <div class="item center-block">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/pSVBpqFyJ24" frameborder="0" allowfullscreen class="center-block"></iframe>
+             </div>
+           </div>
+           <!-- Controls -->
+           <a class="left carousel-control" href="#carousel-video" role="button" data-slide="prev">
+             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+             <span class="sr-only">Previous</span>
+           </a>
+           <a class="right carousel-control" href="#carousel-video" role="button" data-slide="next">
+             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+             <span class="sr-only">Next</span>
+           </a>
+         </div>
        </div>
      </div>
    </div>
