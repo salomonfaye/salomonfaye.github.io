@@ -1,3 +1,7 @@
 .top-buffer {
   margin-top: 2%;
 }
+
+.top-negbuffer {
+  margin-top: -20px;
+}
