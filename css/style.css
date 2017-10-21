@@ -6,10 +6,6 @@
   margin-bottom: 5%;
 }
 
-.top-negbuffer {
-  margin-top: -20px;
-}
-
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -39,6 +35,20 @@
 	height: 100%;
 }
 
-.overflow {
-  overflow-y: hidden;
+.darkfooter {
+  background-color: #111;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.darkfooter a {
+  color: #777;
+}
+
+.darkfooter p {
+  font-size: 12px;
 }
