@@ -3,7 +3,7 @@
 }
 
 .bottom-buffer {
-  margin-bottom: 5%;
+  margin-bottom: 25px;
 }
 
 .videoWrapper {
@@ -103,7 +103,7 @@
 #countdown span {
   font-size: 12px;
   font-weight: normal;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
   text-align: center;
 }
