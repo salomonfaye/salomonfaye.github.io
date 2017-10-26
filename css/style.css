@@ -52,3 +52,58 @@
 .darkfooter p {
   font-size: 12px;
 }
+
+
+
+.container {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+#main {
+}
+
+.content {
+  padding: 10px 44px;
+}
+
+.text {
+  border-bottom: 1px solid #262626;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.text h2 {
+  color: #E5E5E5;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.counter {
+  text-align: center;
+}
+
+.counter h3 {
+  font-size: 20px;
+  font-family: monospace;
+  font-variant: normal;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+#countdown {
+  color: #000000;
+}
+
+#countdown span {
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
