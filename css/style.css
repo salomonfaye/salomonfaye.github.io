@@ -53,8 +53,6 @@
   font-size: 12px;
 }
 
-
-
 .container {
   margin: 0px auto;
   padding: 0px;
@@ -108,10 +106,19 @@
   text-align: center;
 }
 
+.coverwrap {
+  margin: 0 auto 20px;
+  max-width: 800px;
+  width: 90%;
+}
+
 .coverart {
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   margin: 10px;
+  max-width: 740px;
+  width: 90%;
 }
+
 
 /* Featurettes
 ------------------------- */
