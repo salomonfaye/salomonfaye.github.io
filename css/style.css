@@ -1,3 +1,11 @@
+body {
+			background-image: url(https://lh3.google.com/u/0/d/1v3Mn8b71gDq6cquf3ARYxYKRjWeu7r4P=w1349-h776-iv1) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+}
+
 .top-buffer {
   margin-top: 2%;
 }
@@ -89,6 +97,7 @@
 /* Featurettes
 ------------------------- */
 
+
 .featurette-divider {
   margin: 60px 0; /* Space out the Bootstrap <hr> more */
 }
@@ -96,6 +105,7 @@
 /* Thin out the marketing headings */
 .featurette-heading {
   font-size: 24px;
+  color: #FFF;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
